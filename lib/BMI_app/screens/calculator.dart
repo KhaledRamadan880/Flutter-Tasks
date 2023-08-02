@@ -10,10 +10,10 @@ class CalculatorScreen extends StatefulWidget {
 
 class _CalculatorScreenState extends State<CalculatorScreen> {
   late String gender;
-  late double height = 100;
+  double height = 100;
   late var newHeight;
-  late var weight = 50.0;
-  late var age = 20.0;
+  var weight = 50.0;
+  var age = 20.0;
   var bmi = 0.0;
   var rate = '';
 
